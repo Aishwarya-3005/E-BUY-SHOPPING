@@ -1,0 +1,94 @@
+<!Doctype html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="regist.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="header">
+    <div class="container">
+
+      <div class="navbar">
+         <div class="logo">
+            <img src="images\go.jpg" width="140" height="150">
+         </div>
+     <nav>
+       <ul id="MenuItems">
+           <li><a href="account.html">Account</a></li> 
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          
+       </ul>
+      </nav>
+      <a href="cart.html"><img src="images\cart.jpg" width="75px" height="60px"></a>
+      <img src="images\menu.jpg" class="menu-icon" onclick="menutoggle()">
+
+     </div>
+  </div>
+  <div class="row">
+     <div class="col-2">
+        <h1>Happiness is turning your space into a garden...</h1>
+        
+     </div>
+     <div class="col-2">
+         <img src ="images\nursery.jpg" > 
+      </div>
+    </div>
+
+    <div class="box">
+       
+            <h1>Register Here</h1>
+    
+            <form name="myform2" action="register.php" method="POST">
+    
+                <p>Username</p>
+                <input type="text" name="uname1" placeholder="Enter Username" required="">
+    
+                <p>Email</p>
+                <input type="Email" name="email" placeholder="Enter email id" required="">
+    
+                <p>Password</p>
+                <input type="password" name="upswd1" placeholder="Enter Password" required="">
+    
+                <p>Retype Password</p>
+                <input type="password" name="upswd2" placeholder="Re-Enter Password" required="">
+    
+                <input type="submit" name="" value="Register">
+    
+                <br><br>
+                <a href="home.html"> existing user, login !?</a>
+            </form>
+            
+        </div>
+    
+
+<script>
+             var MenuItems = document.getElementById("MenuItems");
+             
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                  {
+                     MenuItems.style.maxHeight = "300px";
+                   }
+                 else
+                    {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+             }
+
+
+         </script>  
+    
+
+</body>
+</html>
