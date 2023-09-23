@@ -28,7 +28,7 @@
           
        </ul>
       </nav>
-     <img src="images\cart.jpg" width="75px" height="60px"></a>
+     <img src="images\cart.jpg" width="75px" height="60px">
       <img src="images\menu.jpg" class="menu-icon" onclick="menutoggle()">
 
      </div>
@@ -62,7 +62,7 @@
 
     <title>Contact us form using php mysql</title>
 
-</head>
+
 <body>
     <div class="container">
         <h3>Request Quote or Submit feedback</h3>
