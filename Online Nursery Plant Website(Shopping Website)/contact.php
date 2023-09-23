@@ -64,7 +64,7 @@
     <title>Contact us form using php mysql</title>
 
 
-<body>
+
     <div class="container">
         <h3>Request Quote or Submit feedback</h3>
         <form action="form-process.php" method="POST">
